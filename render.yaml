@@ -11,8 +11,8 @@ services:
     mountPath: /data
   envVars:
   - key: MINIO_ROOT_USER
-    generateValue: true
+    value: hps
   - key: MINIO_ROOT_PASSWORD
-    generateValue: true
+    value: Kg6yUaqW!
   - key: PORT
-    value: 10000
+    value: 9000
